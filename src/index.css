@@ -96,7 +96,7 @@
 
 .head {
   padding-left: 450px;
-  margin-top: 8px;
+  margin-top: 18px;
 }
 .about {
   padding: 2rem 0;
@@ -134,6 +134,20 @@
   height: 500px;
 }
 /* Footer styles */
+
+/* tooling styles */
+.tooling {
+  display: flex;
+}
+.lap {
+  width: 600px;
+}
+.contents {
+  padding: 40px;
+  line-height: 1.7;
+}
+
+/* end of tooling */
 .footer {
   background-color: #333;
   color: white;
@@ -172,4 +186,33 @@
 
 .footer-content a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 640px) {
+  .header,
+  .about,
+  .tooling,
+  .action {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+  }
+  .header nav,
+  .register,
+  .header-title {
+    display: none;
+  }
+  .head {
+    padding-left: 50px;
+  }
+  .ide {
+    width: 400px;
+  }
+  .header {
+    height: 80px;
+  }
+  .lap {
+    width: 400px;
+    margin: 10px;
+  }
 }
