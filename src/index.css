@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+}
+.header {
+  background-color: #f25f3a;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-bottom-left-radius: 40px;
+  background-image: url("../assets/images/bg-pattern-intro-desktop.svg");
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-content li {
+  margin: 0 1rem;
+  padding: 3px;
+}
+
+.header-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.header .header-title {
+  margin-top: 2rem;
+}
+
+.header-title h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header-title p {
+  margin-bottom: 2rem;
+}
+
+.header-title button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  color: #f25f3a;
+  background-color: white;
+  cursor: pointer;
+}
+
+.header-title button:hover {
+  background-color: #ff796b;
+  color: white;
+}
+
+.img {
+  object-fit: cover;
+  height: 90px;
+  /* width: 400px; */
+}
+
+.sign {
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 8px;
+}
+.register {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  gap: 16px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  padding-top: 20px;
+}
+.auth {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.action {
+  margin: 30px;
+  align-items: center;
+}
+
+/* About styles */
+
+.head {
+  padding-left: 450px;
+  margin-top: 8px;
+}
+.about {
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.content {
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.about .editor .heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about .editor p {
+  margin-bottom: 1.5rem;
+  color: #555;
+  float: right;
+}
+
+.ide {
+  width: 600px;
+  height: auto;
+}
+/* Action styles */
+.action {
+  display: flex;
+  gap: 20px;
+}
+.phone {
+  height: 500px;
+}
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-content div {
+  margin: 1rem;
+}
+
+.footer-content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content li {
+  margin: 0.5rem 0;
+}
+
+.footer-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
